@@ -518,34 +518,35 @@
       "asset_base_url": "https://lapis-slate-xvar.here.now/library/bird-species-atlas/media/"
     },
     {
-      "id": "harborlux-summit",
-      "title": "Harborlux — Claim Your Summit",
+      "id": "rainy-harbour-penthouse",
+      "title": "Rainy harbour penthouse",
       "description": "A 7.4-second penthouse arrival, from split lacquer doors and a rooftop camera tilt to a rain-lit harbour with layered typography.",
-      "index": "references/packs/harborlux-summit.md",
+      "index": "references/packs/rainy-harbour-penthouse.md",
       "use_modes": [
         "verbatim",
         "adapted",
         "hybrid"
       ],
-      "distribution": "Independently rewritten prompt and linked asset manifest. Load the supplied media and font from their original URLs.",
+      "distribution": "Authored working prompt and verified user-hosted asset manifest.",
       "sources": [
         {
           "type": "working-prompt",
-          "url": "https://lapis-slate-xvar.here.now/library/harborlux-summit/prompt.md"
+          "url": "https://lapis-slate-xvar.here.now/library/rainy-harbour-penthouse/prompt.md"
         },
         {
           "type": "media-manifest",
-          "url": "https://lapis-slate-xvar.here.now/library/harborlux-summit/assets.json"
+          "url": "https://lapis-slate-xvar.here.now/library/rainy-harbour-penthouse/assets.json"
+        },
+        {
+          "type": "live-example",
+          "url": "https://auralis-harbour.neuronsarealsocool.chatgpt.site"
         }
       ],
       "platform_default": "existing or user-selected stack; otherwise a suitable responsive frontend",
-      "asset_manifest": "assets/manifests/harborlux-summit.json",
-      "asset_origins": [
-        "https://images.higgs.ai",
-        "https://d8j0ntlcm91z4.cloudfront.net",
-        "https://fonts.gstatic.com"
-      ],
-      "media_count": 8
+      "asset_manifest": "assets/manifests/rainy-harbour-penthouse.json",
+      "media_count": 8,
+      "asset_base_url": "https://lapis-slate-xvar.here.now/library/rainy-harbour-penthouse/media/",
+      "license_notice": "licenses/inter-OFL.txt"
     }
   ]
 }

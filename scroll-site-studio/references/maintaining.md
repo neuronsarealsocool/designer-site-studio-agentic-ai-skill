@@ -91,8 +91,3 @@ For hosted-media packs, set `asset_manifest`, `asset_base_url` and `media_count`
 the catalog. Each manifest entry needs a unique ID/URL, positive byte size, SHA-256
 and a URL beneath that base. List every URL in the working prompt. Validation
 checks these relationships without downloading media or spending generation budget.
-
-When the supplied brief requires direct linking to the original assets, preserve
-the exact URLs and record their HTTPS origins in `asset_origins` in place of
-`asset_base_url`. Include each resource's MIME type when the URL uses a resizer
-or has no file extension. Record hashes and sizes for the exact linked rendition.

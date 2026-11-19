@@ -1,8 +1,12 @@
 # Changes
 
+## 0.4.16 — 19 November 2026
+
+- Updated the rainy harbour penthouse pack with Auralis branding, user-hosted media and Inter font attribution. The working prompt, catalog and asset map use the same eight verified files.
+
 ## 0.4.14 — 19 November 2026
 
-- Added Harborlux — Claim Your Summit, with a timed door reveal, layered rainy harbour, and reduced-motion composition. The asset map links the five stills, two clips and Inter typeface at their supplied URLs.
+- Added the rainy harbour penthouse composition, with a timed door reveal, layered rainy harbour, and reduced-motion composition. The asset map links the five stills, two clips and Inter typeface at their supplied URLs.
 
 ## 0.4.13 — 14 November 2026
 

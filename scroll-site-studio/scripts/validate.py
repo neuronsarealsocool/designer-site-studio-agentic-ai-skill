@@ -4,7 +4,6 @@ import sys
 sys.dont_write_bytecode = True
 import argparse
 import re
-from urllib.parse import urlsplit
 from common import ROOT, digest, file_list, identifier, inside, read_json, scan, write_json
 
 def hashes():
@@ -40,12 +39,7 @@ def validate(check_hashes=True):
             if pack.get('asset_manifest'):
                 manifest=read_json(inside(ROOT,pack['asset_manifest']))
                 base=pack.get('asset_base_url','')
-                origins=pack.get('asset_origins', [])
-                if origins:
-                    if base or any(not re.fullmatch(r'https://[a-zA-Z0-9.-]+', origin) for origin in origins):
-                        errors.append('Invalid original asset origins: '+pack['id'])
-                elif not base.startswith('https://') or not base.endswith('/'):
-                    errors.append('Invalid asset base URL: '+pack['id'])
+                if not base.startswith('https://') or not base.endswith('/'): errors.append('Invalid asset base URL: '+pack['id'])
                 assets=manifest.get('assets',[])
                 if len(assets)!=pack.get('media_count'): errors.append('Asset count differs: '+pack['id'])
                 asset_ids=set(); asset_urls=set()
@@ -53,9 +47,7 @@ def validate(check_hashes=True):
                 for asset in assets:
                     url=asset.get('url',''); asset_id=asset.get('id','')
                     if not asset_id or asset_id in asset_ids: errors.append('Duplicate/missing asset ID: '+pack['id'])
-                    parsed=urlsplit(url)
-                    allowed=(parsed.scheme+'://'+parsed.netloc in origins) if origins else url.startswith(base)
-                    if url in asset_urls or not allowed: errors.append('Invalid hosted asset URL: '+pack['id'])
+                    if url in asset_urls or not url.startswith(base): errors.append('Invalid hosted asset URL: '+pack['id'])
                     if not re.fullmatch(r'[a-f0-9]{64}',asset.get('sha256','')): errors.append('Invalid asset hash: '+pack['id'])
                     if not isinstance(asset.get('bytes'),int) or asset['bytes']<=0: errors.append('Invalid asset size: '+pack['id'])
                     if url not in guide: errors.append('Asset URL absent from working prompt: '+pack['id'])
