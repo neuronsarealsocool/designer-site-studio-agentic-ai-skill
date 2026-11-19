@@ -1,5 +1,9 @@
 # Changes
 
+## 0.4.14 — 19 November 2026
+
+- Added Harborlux — Claim Your Summit, with a timed door reveal, layered rainy harbour, and reduced-motion composition. The asset map links the five stills, two clips and Inter typeface at their supplied URLs.
+
 ## 0.4.13 — 14 November 2026
 
 - Renamed the cinematic-site workflow pack to “Kopi Coffee - A Site Made By Giving Codex This YouTube Video Link”.

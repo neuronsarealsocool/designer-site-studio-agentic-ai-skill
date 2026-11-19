@@ -11,7 +11,7 @@ Claude Code**, and growing a library of templates and design references over tim
 
 ## Install
 
-Download and extract the [v0.4.13 release](https://github.com/neuronsarealsocool/scroll-site-studio/releases/tag/v0.4.13),
+Download and extract the [v0.4.14 release](https://github.com/neuronsarealsocool/scroll-site-studio/releases/tag/v0.4.14),
 then open a terminal inside the extracted `scroll-site-studio` folder. With Python 3.10+:
 
 ```text
@@ -118,7 +118,7 @@ independent of OpenAI, Anthropic, Replicate and the upstream skill authors.
 - [Tower and room tours](scroll-site-studio/references/packs/tower-room-tours.md): 12 media files.
 
 [Browse prompts and assets](https://lapis-slate-xvar.here.now/library/browse.html). Direct hosted URLs replace original
-asset locations in these working packs. The fifteen prompts can be reused as written
+asset locations in these working packs. The sixteen prompts can be reused as written
 or adapted. All packs and future additions use neutral names, with WordPress optional,
 Replicate for new media and approval in chat before new media is published.
 
@@ -127,4 +127,4 @@ or grant new rights over third-party assets. Private working backups stay privat
 
 ## Recovered prompt packs
 
-Version 0.4.1 includes seven independently worded working specifications recovered from the chat audit: lake cabin retreat, private aviation journey, racing driver profile, cinematic wipe studio, point-cloud companion, curved film archive and bird species atlas. The library now has fifteen packs and 159 hosted media/support files. Detailed neutral source documents remain in the private working backup. The Alder & Form pack includes its approved screenshot and a media brief, and the Point-cloud companion pack includes its approved exact geometry and required notice.
+Version 0.4.1 includes seven independently worded working specifications recovered from the chat audit: lake cabin retreat, private aviation journey, racing driver profile, cinematic wipe studio, point-cloud companion, curved film archive and bird species atlas. The library includes sixteen packs and 167 linked media/support files. [Harborlux](scroll-site-studio/references/packs/harborlux-summit.md) uses the eight supplied original-source URLs. Detailed neutral source documents remain in the private working backup. The Alder & Form pack includes its approved screenshot and a media brief, and the Point-cloud companion pack includes its approved exact geometry and required notice.
