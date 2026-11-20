@@ -11,7 +11,7 @@ Claude Code**, and growing a library of templates and design references over tim
 
 ## Install
 
-Download and extract the [v0.4.18 release](https://github.com/neuronsarealsocool/designer-site-studio-agentic-ai-skill/releases/tag/v0.4.18),
+Download and extract the [v0.4.19 release](https://github.com/neuronsarealsocool/designer-site-studio-agentic-ai-skill/releases/tag/v0.4.19),
 then open a terminal inside the extracted `scroll-site-studio` folder. With Python 3.10+:
 
 ```text
@@ -127,4 +127,9 @@ or grant new rights over third-party assets. [Prompt-pack backups](https://githu
 
 ## Recovered prompt packs
 
-Version 0.4.1 includes seven independently worded working specifications recovered from the chat audit: lake cabin retreat, private aviation journey, racing driver profile, cinematic wipe studio, point-cloud companion, curved film archive and bird species atlas. The library includes sixteen packs and 167 linked media/support files. [Rainy harbour penthouse](scroll-site-studio/references/packs/rainy-harbour-penthouse.md) includes eight user-hosted resources and an Inter font license. Detailed neutral source documents are retained in the public prompt-pack repository. The Alder & Form pack includes its approved screenshot and a media brief, and the Point-cloud companion pack includes its approved exact geometry and required notice.
+Version 0.4.1 includes seven independently worded working specifications recovered from the chat audit: lake cabin retreat, private aviation journey, racing driver profile, cinematic wipe studio, point-cloud companion, curved film archive and bird species atlas. The library includes seventeen packs and 169 linked media/support files. [Rainy harbour penthouse](scroll-site-studio/references/packs/rainy-harbour-penthouse.md) includes eight user-hosted resources and an Inter font license. Detailed neutral source documents are retained in the public prompt-pack repository. The Alder & Form pack includes its approved screenshot and a media brief, and the Point-cloud companion pack includes its approved exact geometry and required notice.
+
+
+## Clothes Rack Showroom
+
+[Clothes Rack Showroom](scroll-site-studio/references/packs/clothes-rack-showroom.md) adds the full build prompt, approved two-wall showroom preview and a portable source archive, including required Three.js and Outfit notices. The collection now contains 17 packs and 169 linked media/support files.

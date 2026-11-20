@@ -1,5 +1,11 @@
 # Changes
 
+## 0.4.19 — 20 November 2026
+
+- Added Clothes Rack Showroom: a detailed build prompt, approved corrected two-wall preview, and portable Three.js implementation.
+- Preserved Three.js and Outfit notices, reference/adaptation modes, optional WordPress and Replicate/chat-approval defaults.
+- Current collection: 17 packs and 169 linked media/support files.
+
 ## 0.4.18 — 20 November 2026
 
 - Replaced split tower/side scenery with one opaque panorama compositor to remove residual vertical sky hairlines. Updated poster, reduced-motion, pixel-boundary and transition checks.

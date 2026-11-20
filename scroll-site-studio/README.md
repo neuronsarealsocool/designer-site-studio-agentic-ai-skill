@@ -116,4 +116,9 @@ recognizable imagery can identify a source; neutral naming is not full anonymity
 
 ## Expanded reference library
 
-Sixteen packs cover architecture, hospitality, commerce, aviation, racing, film, particle interfaces, archives, natural-history viewers and production workflows. The catalog links 167 media and support files, including the eight user-hosted resources for [Rainy harbour penthouse](references/packs/rainy-harbour-penthouse.md). The Alder & Form pack includes its approved live-site screenshot and a detailed media brief; the Point-cloud companion pack now includes its approved exact geometry and required notice. Detailed neutral source documents are maintained privately when public redistribution terms are unclear.
+Seventeen packs cover architecture, hospitality, commerce, aviation, racing, film, particle interfaces, archives, natural-history viewers and production workflows. The catalog links 167 media and support files, including the eight user-hosted resources for [Rainy harbour penthouse](references/packs/rainy-harbour-penthouse.md). The Alder & Form pack includes its approved live-site screenshot and a detailed media brief; the Point-cloud companion pack now includes its approved exact geometry and required notice. Detailed neutral source documents are maintained privately when public redistribution terms are unclear.
+
+
+## Clothes Rack Showroom
+
+[Clothes Rack Showroom](references/packs/clothes-rack-showroom.md) includes a full working prompt, an approved preview and a ready-to-run Three.js source archive. Two perpendicular clothing walls, pointer-controlled camera views, collection navigation, product details and a demo bag are included. The library now has 17 packs and 169 linked media/support files.
