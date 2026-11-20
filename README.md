@@ -11,7 +11,7 @@ Claude Code**, and growing a library of templates and design references over tim
 
 ## Install
 
-Download and extract the [v0.4.18 release](https://github.com/neuronsarealsocool/scroll-site-studio/releases/tag/v0.4.18),
+Download and extract the [v0.4.18 release](https://github.com/neuronsarealsocool/designer-site-studio-agentic-ai-skill/releases/tag/v0.4.18),
 then open a terminal inside the extracted `scroll-site-studio` folder. With Python 3.10+:
 
 ```text
@@ -123,8 +123,8 @@ or adapted. All packs and future additions use neutral names, with WordPress opt
 Replicate for new media and approval in chat before new media is published.
 
 Required licenses and recognizable media remain; this does not erase Git history
-or grant new rights over third-party assets. Private working backups stay private.
+or grant new rights over third-party assets. [Prompt-pack backups](https://github.com/neuronsarealsocool/designer-site-studio-prompt-packs) are public.
 
 ## Recovered prompt packs
 
-Version 0.4.1 includes seven independently worded working specifications recovered from the chat audit: lake cabin retreat, private aviation journey, racing driver profile, cinematic wipe studio, point-cloud companion, curved film archive and bird species atlas. The library includes sixteen packs and 167 linked media/support files. [Rainy harbour penthouse](scroll-site-studio/references/packs/rainy-harbour-penthouse.md) includes eight user-hosted resources and an Inter font license. Detailed neutral source documents remain in the private working backup. The Alder & Form pack includes its approved screenshot and a media brief, and the Point-cloud companion pack includes its approved exact geometry and required notice.
+Version 0.4.1 includes seven independently worded working specifications recovered from the chat audit: lake cabin retreat, private aviation journey, racing driver profile, cinematic wipe studio, point-cloud companion, curved film archive and bird species atlas. The library includes sixteen packs and 167 linked media/support files. [Rainy harbour penthouse](scroll-site-studio/references/packs/rainy-harbour-penthouse.md) includes eight user-hosted resources and an Inter font license. Detailed neutral source documents are retained in the public prompt-pack repository. The Alder & Form pack includes its approved screenshot and a media brief, and the Point-cloud companion pack includes its approved exact geometry and required notice.
