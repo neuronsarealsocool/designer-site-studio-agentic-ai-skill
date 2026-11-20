@@ -1,8 +1,20 @@
 # Changes
 
+## 0.4.18 — 20 November 2026
+
+- Replaced split tower/side scenery with one opaque panorama compositor to remove residual vertical sky hairlines. Updated poster, reduced-motion, pixel-boundary and transition checks.
+
+## 0.4.17 — 20 November 2026
+
+- Prevented vertical joins during tower entry/return by keeping the scenic gutters and central footage on the same animated plane. Added intermediate-frame acceptance checks and stable canvas buffer sizing.
+
 ## 0.4.16 — 19 November 2026
 
 - Updated the rainy harbour penthouse pack with Auralis branding, user-hosted media and Inter font attribution. The working prompt, catalog and asset map use the same eight verified files.
+
+## 0.4.15 — 19 November 2026
+
+- Corrected the tower-room-tours desktop framing: fit the registered scene to height, preserve the lake and mist on ultrawide screens, and synchronize scenic side extensions to the same video frame. Added desktop, phone, floor-alignment and reduced-motion acceptance checks.
 
 ## 0.4.14 — 19 November 2026
 

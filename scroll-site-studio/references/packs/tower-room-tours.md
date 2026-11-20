@@ -45,6 +45,54 @@ The registration action needs a genuine destination for a production project.
 The supplied demonstration prices and repeated apartment footage do not establish
 real availability or distinct tours for every level.
 
+## Desktop framing: preserve the lake and mist
+
+Fit the tower composition to viewport height on desktop, including ultrawide
+Chrome windows. Width-driven cover scaling enlarges the tower until its base,
+lake and mist are below the viewport. For the measured 1440 x 900 design plane,
+use `--u: calc(100svh / 900)`, centre the 1440u x 900u plane horizontally at top 0,
+and retain the imagery at top -30u, width 1440u and height 960u. Keep the floor
+mask, label, hit area and selected-floor camera origin on this registered plane.
+Preserve independent UI scaling and the existing phone/interior compositions.
+
+Continuous desktop panorama: render the centre and side extensions into ONE
+opaque canvas inside `.zoom`. Separate video/canvas elements and fallback
+pseudo-elements can leave hairline GPU/compositing boundaries even when their
+bounding boxes align and they share a transform. Do not use split DOM surfaces
+or an opaque fallback pseudo-element above a moving side canvas.
+
+The untransformed side width is `max(0px, (100vw - 1440u) / 2)`. The canvas spans
+the centre plus both sides at the plate's original top and height. Draw the
+undistorted centre from the exact current frame of the mist player. Fill the
+sides with mirrored tower-free outer thirds of that SAME frame, compensating
+for the player's centred cover crop. Round destination boundaries once into
+integer backing-buffer pixels and fill adjacent regions without transparent
+gaps. Use one opaque 2D context and size it from untransformed client dimensions,
+not zoomed bounding rectangles. Hide the separate visual plate/player only once
+the panorama is drawn; keep the player running as its video source.
+
+Use requestVideoFrameCallback where available. Pause/cancel updates with the
+mist player and when the page is hidden. Decode the dawn plate and draw it through
+the exact same panorama compositor for reduced motion or playback failure. On
+phones retain the original plate/player composition. This is video compositing,
+not procedurally animated mist or a newly generated scene. All source media and
+floor geometry stay unchanged. Keep the floor highlight and tag above the canvas.
+
+Transition integrity: the entire panorama shares `.zoom` and its selected-floor
+origin, opening animation, entry scale and return scale. Keep the UI outside it.
+Inspect entry and return in Chrome, including intermediate frames and the opening
+zoom. Look specifically for thin vertical lines against the smooth sky, not just
+large crop errors or misaligned horizons. Matching rectangles alone is not proof
+of a seamless render. Never conceal joins with a blur, dark wash or restored
+width-driven crop.
+
+Acceptance: retain the full tower crown/base, waterfront, boats and a clear lake
+band with moving mist at 1920 x 1080, 2560 x 1080, 3440 x 1215 and extreme ultrawide
+ratios. Resize without floor drift or growing zoom. Verify high/low floors,
+slider feedback, Enter and return. At 390px preserve the phone layout and reachable
+room tags. Reduced motion shows the decoded still panorama with no video/camera
+motion. Do not call a stopped loop or offscreen fog verified moving mist.
+
 ## Project rules
 
 Use this working prompt as written, adapt it, or lock selected elements and combine
